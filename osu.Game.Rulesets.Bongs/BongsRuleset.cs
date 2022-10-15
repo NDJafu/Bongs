@@ -43,8 +43,10 @@ namespace osu.Game.Rulesets.Bongs
 
         public override IEnumerable<KeyBinding> GetDefaultKeyBindings(int variant = 0) => new[]
         {
-            new KeyBinding(InputKey.Z, BongsAction.Button1),
-            new KeyBinding(InputKey.X, BongsAction.Button2),
+            new KeyBinding(InputKey.D, BongsAction.Button1),
+            new KeyBinding(InputKey.F, BongsAction.Button2),
+            new KeyBinding(InputKet.J, BongsAction.Button3),
+            new KeyBinding(InputKet.K, BongsAction.Button4)
         };
 
         public override Drawable CreateIcon() => new SpriteText

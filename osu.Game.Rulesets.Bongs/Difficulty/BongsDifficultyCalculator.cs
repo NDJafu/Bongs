@@ -10,7 +10,7 @@ using osu.Game.Rulesets.Difficulty.Preprocessing;
 using osu.Game.Rulesets.Difficulty.Skills;
 using osu.Game.Rulesets.Mods;
 
-namespace osu.Game.Rulesets.Bongs
+namespace osu.Game.Rulesets.Bongs.Difficulty
 {
     public class BongsDifficultyCalculator : DifficultyCalculator
     {

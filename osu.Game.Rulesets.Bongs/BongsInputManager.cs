@@ -22,5 +22,11 @@ namespace osu.Game.Rulesets.Bongs
 
         [Description("Button 2")]
         Button2,
+
+        [Description("Button 3")]
+        Button3,
+
+        [Description("Button 4")]
+        Button4,
     }
 }

@@ -8,6 +8,9 @@ namespace osu.Game.Rulesets.Bongs.Objects
 {
     public class BongsHitObject : HitObject
     {
-        public override Judgement CreateJudgement() => new Judgement();
+        public override Judgement CreateJudgement() => new BongsJudgement();
+
+        protected override HitWindows CreateHitWindows() => new BongsHitWindows();
+
     }
 }
